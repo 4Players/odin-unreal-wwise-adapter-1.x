@@ -2,13 +2,13 @@
 
 ![Wwise and ODIN](https://docs.4players.io/assets/images/wwise_with_odin_header-bb97f77fa2adf0aa23dcc9129f61c216.jpg)
 
-This is an optional Unreal Engine plugin that provides an Audio Input Component for integrating the new Version 2 of our [ODIN Voice Chat Plugin](https://odin.4players.io/voice-chat/) with the [Audiokinetic Wwise Sound Engine](https://www.audiokinetic.com/products/wwise/) in Unreal.
+This is an optional Unreal Engine plugin that provides an Audio Input Component for integrating our [ODIN Voice Chat Plugin](https://odin.4players.io/voice-chat/) with the [Audiokinetic Wwise Sound Engine](https://www.audiokinetic.com/products/wwise/) in Unreal.
 
 __IMPORTANT:__ This Plugin is designed to be used with Version 1.x of the ODIN Voice Chat Plugin and is not compatible with Version 2.x!
 
 ## Guide
 
-Following is a short guide outlining the integration of the Plugin into your Unreal Engine project. Alternatively you can look it up in our [Developer Documentation](https://docs.4players.io/voice/unreal/guides/odin-wwise/).
+Following is a short guide outlining the integration of the Plugin into your Unreal Engine project. Alternatively you can look up how to integrate Odin and Wwise manually in our [Developer Documentation](https://docs.4players.io/voice/unreal/guides/odin-wwise/).
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ To set up the ODIN Voice Chat Plugin, please take a look at our [Getting-Started
 
 ## Plugin Structure
 
-The plugin consists primarily of the `UAkOdinInputComponent`, which serves as a substitute for the [UOdinSynthComponent](https://docs.4players.io/voice/unreal/blueprint-reference/odin-synth-component/). The component uses the Odin Decoder to generate Audio and forward it to the Wwise Audio Engine instead of to the Unreal Audio Engine.
+The plugin consists primarily of the `UAkOdinInputComponent`, which serves as a substitute for the [UOdinSynthComponent](https://docs.4players.io/voice/unreal/blueprint-reference/odin-synth-component/). The component uses the Odin SDK to generate Audio and forward it to the Wwise Audio Engine instead of to the Unreal Audio Engine.
 
 ## Usage
 
