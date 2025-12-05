@@ -20,7 +20,7 @@ To use the Component we recommend the following:
 
 To set up Wwise in your project, please follow Wwise's integration documentation. You can find the documentation [here](https://www.audiokinetic.com/library/edge/?source=UE4&id=index.html).
 
-To set up the ODIN Voice Chat Plugin, please take a look at our [Getting-Started guide](https://docs.4players.io/voice/unreal/).
+To set up the ODIN Voice Chat Plugin, please take a look at our [Getting-Started guide](https://docs.4players.io/voice/unreal/). A sample project can be found in the corresponding [branch of our minimal samples](https://github.com/4Players/odin-unreal-minimal-samples/tree/wwise-adapter-sample).
 
 ## Plugin Structure
 
